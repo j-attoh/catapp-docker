@@ -12,3 +12,8 @@ Docker || Docker Compose Files for the Catalyst App
   
  check out the [docker](https://docs.docker.com/) && [docker compose](https://docs.docker.com/compose/) documentation for more details 
   
+# NOTE 
+    - Production API would use PostgreSQL/MySQL as the database as well as other DB options as at when necessary 
+    - For now sqlite would be preferred due to its relative smaller size and easier config for development purposes
+    - Kindly take note
+    
