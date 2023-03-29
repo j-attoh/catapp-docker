@@ -1,0 +1,22 @@
+---
+version: '3.9'
+
+services:
+  catapp:
+    image: jattoh/catalyst_app:v1
+    ports:
+      - 8080:8080
+    depends_on:
+      - sqlite
+    volumes:
+      - sqlitedb:/code
+
+
+  sqlite:
+    image: keinos/sqlite3 
+    stdin_open: true 
+    tty: true
+
+
+volumes:
+  sqlitedb:
