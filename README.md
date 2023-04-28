@@ -13,7 +13,7 @@ Docker || Docker Compose Files for the Catalyst App
  check out the [docker](https://docs.docker.com/) && [docker compose](https://docs.docker.com/compose/) documentation for more details 
  
 # NOTE ( FOR CLARITY)
-  Api can be found/located localhost:8080/docs after running the "docker compose up" command
+  Api can be found/located at  **localhost:8080/docs** after running the "docker compose up" command
   
 # NOTE 
     - Production API would use PostgreSQL/MySQL as the database as well as other DB options as at when necessary 
